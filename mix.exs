@@ -28,8 +28,9 @@ defmodule AliceShizzle.Mixfile do
     [files: ["lib", "config", "mix.exs", "README*"],
      maintainers: ["Devin Clark"],
      licenses: ["MIT"],
-     links: %{"GitHub"   => "https://github.com/notdevinclark/alice_shizzle",
-              "Docs"     => "https://github.com/notdevinclark/alice_shizzle",
-              "Gizoogle" => "http://www.gizoogle.net/textilizer.php"}]
+     links: %{"GitHub"          => "https://github.com/notdevinclark/alice_shizzle",
+              "Docs"            => "https://github.com/notdevinclark/alice_shizzle",
+              "Alice Slack bot" => "https://github.com/adamzaninovich/alice",
+              "Gizoogle"        => "http://www.gizoogle.net/textilizer.php"}]
   end
 end
