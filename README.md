@@ -2,9 +2,9 @@
 
 A handlez fo' tha Alice Slack bot fo' realz. Allows you ta drop a rhyme like a thug by utilizin [Gizoogle](http://www.gizoogle.net/textilizer.php).
 
-**Warning:** This may contain profanitizzle n' other possibly bitch ass terms.
+**Warning:** This may contain profanitizzle n' other possibly bitch ass terms, obviously take dis as parodizzle.
 
-![](http://i.imgur.com/g7OmFI9.png)
+![](http://i.imgur.com/g6cnX0G.png)
 
 ## Installation
 
