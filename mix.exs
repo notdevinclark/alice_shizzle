@@ -7,7 +7,7 @@ defmodule AliceShizzle.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     description: "A handlez fo' tha Alice Slack bot fo' realz. Allows you ta drop a rhyme like a thug",
+     description: "A handlez fo' tha Alice Slack bot fo' realz. Allows you ta drop a rhyme like a thug by utilizin Gizoogle",
      package: package,
      deps: deps]
   end
@@ -28,7 +28,8 @@ defmodule AliceShizzle.Mixfile do
     [files: ["lib", "config", "mix.exs", "README*"],
      maintainers: ["Devin Clark"],
      licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/notdevinclark/alice_shizzle",
-              "Docs"   => "https://github.com/notdevinclark/alice_shizzle"}]
+     links: %{"GitHub"   => "https://github.com/notdevinclark/alice_shizzle",
+              "Docs"     => "https://github.com/notdevinclark/alice_shizzle",
+              "Gizoogle" => "http://www.gizoogle.net/textilizer.php"}]
   end
 end
