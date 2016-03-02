@@ -20,7 +20,7 @@ defmodule AliceShizzle.Mixfile do
     [
       {:websocket_client, github: "jeremyong/websocket_client"},
       {:alice, "~> 0.1.4"},
-      {:gizoogle, "~> 0.0.1"}
+      {:gizoogle, "~> 0.0.2"}
     ]
   end
 

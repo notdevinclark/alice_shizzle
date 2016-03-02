@@ -3,6 +3,7 @@
   "connection": {:hex, :connection, "1.0.2"},
   "exjsx": {:hex, :exjsx, "3.1.0"},
   "floki": {:hex, :floki, "0.7.2"},
+  "gizoogle": {:hex, :gizoogle, "0.0.2"},
   "hackney": {:hex, :hackney, "1.4.10"},
   "httpoison": {:hex, :httpoison, "0.8.1"},
   "idna": {:hex, :idna, "1.1.0"},
