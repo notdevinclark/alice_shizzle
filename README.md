@@ -1,6 +1,10 @@
 # AliceShizzle
 
-A handlez fo' tha Alice Slack bot fo' realz. Allows you ta drop a rhyme like a thug.
+A handlez fo' tha Alice Slack bot fo' realz. Allows you ta drop a rhyme like a thug by utilizin [Gizoogle](http://www.gizoogle.net/textilizer.php).
+
+**Warning:** This may contain profanitizzle n' other possibly bitch ass terms.
+
+![](http://i.imgur.com/g7OmFI9.png)
 
 ## Installation
 
@@ -31,4 +35,4 @@ installed as:
 
 ## Usage
 
-Use `@alice help` fo' mo' shiznit.
+Hit up `@alice help` fo' mo' shiznit.
