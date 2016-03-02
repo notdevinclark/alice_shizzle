@@ -1,20 +1,34 @@
 # AliceShizzle
 
-**TODO: Add description**
+A handlez fo' tha Alice Slack bot fo' realz. Allows you ta drop a rhyme like a thug.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+If [available up in Hex](https://hex.pm/packages/alice_shizzle), tha package can be
+installed as:
 
-  1. Add alice_shizzle to your list of dependencies in `mix.exs`:
+  1. Add `alice_shizzle` ta yo' list of dependencies up in `mix.exs`:
 
-        def deps do
-          [{:alice_shizzle, "~> 0.0.1"}]
-        end
+    ```elixir
+    defp deps do
+      [
+        {:websocket_client, github: "jeremyong/websocket_client"},
+        {:alice, "~> 0.1.4"},
+        {:alice_shizzle, "~> 0.0.1"}
+      ]
+    end
+    ```
 
-  2. Ensure alice_shizzle is started before your application:
+  2. Add tha handlez ta yo' list of registered handlezs in `mix.exs`:
 
-        def application do
-          [applications: [:alice_shizzle]]
-        end
+    ```elixir
+    def application do
+      [applications: [:alice],
+        mod: {
+          Alice, [Alice.Handlers.Shizzle, ...]}]
+    end
+    ```
 
+## Usage
+
+Use `@alice help` fo' mo' shiznit.

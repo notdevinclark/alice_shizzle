@@ -7,26 +7,27 @@ defmodule AliceShizzle.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     description: "A handlez fo' tha Alice Slack bot fo' realz. Allows you ta drop a rhyme like a thug",
+     package: package,
      deps: deps]
   end
 
-  # Configuration for the OTP application
-  #
-  # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [applications: []]
   end
 
-  # Dependencies can be Hex packages:
-  #
-  #   {:mydep, "~> 0.3.0"}
-  #
-  # Or git/path repositories:
-  #
-  #   {:mydep, git: "https://github.com/elixir-lang/mydep.git", tag: "0.1.0"}
-  #
-  # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:websocket_client, github: "jeremyong/websocket_client"},
+      {:alice, "~> 0.1.4"}
+    ]
+  end
+
+  defp package do
+    [files: ["lib", "config", "mix.exs", "README*"],
+     maintainers: ["Devin Clark"],
+     licenses: ["MIT"],
+     links: %{"GitHub" => "https://github.com/notdevinclark/alice_shizzle",
+              "Docs"   => "https://github.com/notdevinclark/alice_shizzle"}]
   end
 end
