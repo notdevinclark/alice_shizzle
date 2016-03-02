@@ -13,14 +13,14 @@ defmodule AliceShizzle.Mixfile do
   end
 
   def application do
-    [applications: [:httpoison]]
+    [applications: [:gizoogle]]
   end
 
   defp deps do
     [
       {:websocket_client, github: "jeremyong/websocket_client"},
       {:alice, "~> 0.1.4"},
-      {:httpoison, "~> 0.8.0"}
+      {:gizoogle, "~> 0.0.1"}
     ]
   end
 

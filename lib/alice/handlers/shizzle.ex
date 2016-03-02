@@ -7,7 +7,7 @@ defmodule Alice.Handlers.Shizzle do
   def handle(conn, :tranzizzle) do
     conn
     |> extract_term
-    |> Shizzle.translate
+    |> Gizoogle.translate
     |> reply(conn)
   end
 
