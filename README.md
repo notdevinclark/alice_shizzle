@@ -22,7 +22,7 @@ installed as:
       [
         {:websocket_client, github: "jeremyong/websocket_client"},
         {:alice, "~> 0.1.4"},
-        {:alice_shizzle, "~> 0.0.1"}
+        {:alice_shizzle, "~> 0.0.3"}
       ]
     end
     ```
