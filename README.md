@@ -8,7 +8,7 @@ A handlez fo' tha [Alice Slack bot](https://github.com/adamzaninovich/alice) fo'
 
 **Warning:** This may contain profanitizzle n' other possibly bitch ass terms, obviously take dis as parodizzle.
 
-![](http://i.imgur.com/g6cnX0G.png)
+![](http://i.imgur.com/NrZyeAb.png)
 
 ## Installation
 
