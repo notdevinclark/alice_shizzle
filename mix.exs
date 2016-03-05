@@ -3,7 +3,7 @@ defmodule AliceShizzle.Mixfile do
 
   def project do
     [app: :alice_shizzle,
-     version: "0.0.4",
+     version: "0.1.0",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -19,7 +19,7 @@ defmodule AliceShizzle.Mixfile do
   defp deps do
     [
       {:websocket_client, github: "jeremyong/websocket_client"},
-      {:alice, "~> 0.1.4"},
+      {:alice, "~> 0.2.0"},
       {:gizoogle, "~> 0.0.2"}
     ]
   end

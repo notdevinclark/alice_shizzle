@@ -4,16 +4,20 @@
 [![Hex.pm](https://img.shields.io/hexpm/v/alice_shizzle.svg)](https://hex.pm/packages/alice_shizzle)
 [![Hex.pm](https://img.shields.io/hexpm/dt/alice_shizzle.svg)](https://hex.pm/packages/alice_shizzle)
 
-A handlez fo' tha [Alice Slack bot](https://github.com/adamzaninovich/alice) fo' realz. Allows you ta drop a rhyme like a thug by utilizin [Gizoogle](http://www.gizoogle.net/textilizer.php).
+A handlez fo' tha [Alice Slack bot] fo' realz. Allows you ta drop a rhyme like
+a thug by utilizin [Gizoogle](http://www.gizoogle.net/textilizer.php).
 
-**Warning:** This may contain profanitizzle n' other possibly bitch ass terms, obviously take dis as parodizzle.
+[Alice Slack bot]: https://github.com/adamzaninovich/alice
+
+**Warning:** This may contain profanitizzle n' other possibly bitch ass terms,
+obviously take dis as parodizzle.
 
 ![](http://i.imgur.com/NrZyeAb.png)
 
 ## Installation
 
-If [available up in Hex](https://hex.pm/packages/alice_shizzle), tha package can be
-installed as:
+If [available up in Hex](https://hex.pm/packages/alice_shizzle), tha package
+can be installed as:
 
   1. Add `alice_shizzle` ta yo' list of dependencies up in `mix.exs`:
 
@@ -21,8 +25,8 @@ installed as:
     defp deps do
       [
         {:websocket_client, github: "jeremyong/websocket_client"},
-        {:alice, "~> 0.1.4"},
-        {:alice_shizzle, "~> 0.0.3"}
+        {:alice, "~> 0.2.0"},
+        {:alice_shizzle, "~> 0.1.0"}
       ]
     end
     ```
