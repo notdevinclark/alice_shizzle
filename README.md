@@ -7,7 +7,7 @@
 A handlez fo' tha [Alice Slack bot] fo' realz. Allows you ta drop a rhyme like
 a thug by utilizin [Gizoogle](http://www.gizoogle.net/textilizer.php).
 
-[Alice Slack bot]: https://github.com/adamzaninovich/alice
+[Alice Slack bot]: https://github.com/alice-bot/alice
 
 **Warning:** This may contain profanitizzle n' other possibly bitch ass terms,
 obviously take dis as parodizzle.

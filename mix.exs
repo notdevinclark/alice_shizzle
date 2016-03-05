@@ -30,7 +30,7 @@ defmodule AliceShizzle.Mixfile do
      licenses: ["MIT"],
      links: %{"GitHub"          => "https://github.com/notdevinclark/alice_shizzle",
               "Docs"            => "https://github.com/notdevinclark/alice_shizzle",
-              "Alice Slack bot" => "https://github.com/adamzaninovich/alice",
+              "Alice Slack bot" => "https://github.com/alice-bot/alice",
               "Gizoogle"        => "http://www.gizoogle.net"}]
   end
 end
