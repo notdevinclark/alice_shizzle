@@ -26,7 +26,7 @@ can be installed as:
       [
         {:websocket_client, github: "jeremyong/websocket_client"},
         {:alice, "~> 0.2.0"},
-        {:alice_shizzle, "~> 0.1.0"}
+        {:alice_shizzle, "~> 0.1.1"}
       ]
     end
     ```
