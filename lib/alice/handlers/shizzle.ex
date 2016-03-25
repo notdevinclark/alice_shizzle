@@ -16,40 +16,15 @@ defmodule Alice.Handlers.Shizzle do
 
   defp handizzle(connizzle, name) do
     connizzle
-    |> extract_dat_term
-    |> sanitizzle
+    |> Alice.Conn.last_capture
+    |> hide_yo_usernames
     |> shizzlize(name)
     |> unhide_yo_usernames
     |> reply(connizzle)
   end
 
-  defp extract_dat_term(connizzle) do
-    connizzle.message.captures
-    |> Enum.reverse
-    |> hd
-  end
-
   defp shizzlize(text, :tranzizzle), do: text |> Gizoogle.translate
   defp shizzlize(text, :querizzle),  do: text |> Gizoogle.url
-
-  def sanitizzle(text) do
-    text
-    |> hide_yo_punctuations
-    |> hide_yo_emails
-    |> hide_yo_usernames
-    |> hide_yo_urls
-  end
-
-  defp hide_yo_punctuations(text) do
-    text
-    |> String.replace("“", ~s("))
-    |> String.replace("”", ~s("))
-    |> String.replace("’", ~s('))
-  end
-
-  defp hide_yo_emails(text), do: text |> String.replace(~r/<mailto:([^|]+)[^\s]*>/i, "\\1")
-
-  defp hide_yo_urls(text), do: text |> String.replace(~r/<([^|@]+)([^\s]*)?>/, "\\1")
 
   defp hide_yo_usernames(text), do: text |> String.replace(~r/<(@[\w\d]+)>/, "#:#\\1#:#")
 
