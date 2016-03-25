@@ -25,8 +25,8 @@ can be installed as:
     defp deps do
       [
         {:websocket_client, github: "jeremyong/websocket_client"},
-        {:alice, "~> 0.2.0"},
-        {:alice_shizzle, "~> 0.1.1"}
+        {:alice, "~> 0.3"},
+        {:alice_shizzle, "~> 0.1.2"}
       ]
     end
     ```
